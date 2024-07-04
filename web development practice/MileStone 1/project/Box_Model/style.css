@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    justify-items: center;
+    border: 2px solid;
+    border-color: hsl(22, 95%, 30%);
+    border-radius: 5px;
+    width: 251px;
+}
+.container img{
+    width: 251px;
+    height: auto;
+}
+.container h3{
+    display: block;
+}

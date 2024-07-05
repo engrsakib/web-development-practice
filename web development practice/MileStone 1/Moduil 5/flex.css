@@ -1,0 +1,15 @@
+.div{
+    padding: 25px;
+    background-color: antiquewhite;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: column-reverse; */
+    flex-wrap: wrap;
+}
+.a{
+    background-color: green;
+    padding: 15px;
+    border: solid 2px red;
+}

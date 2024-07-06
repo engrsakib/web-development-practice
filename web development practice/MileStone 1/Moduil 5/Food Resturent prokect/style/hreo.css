@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* display width: 1240 that 0.65% of 1920 */
+#hero {
+  /* width: 100%; */
+  height: 615px;
+  border-radius: 8px;
+
+  background-image: linear-gradient(
+      180deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(../asset/assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#hero .banner {
+  width: 664.95px;
+}
+.btn {
+  cursor: pointer;
+  padding: 14px 18px 14px 18px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+  border-radius: 8px;
+
+  background: rgb(82, 195, 3);
+
+  /* font style */
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#hero .banner .sub {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+#hero .banner .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 41.6px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 15.65px;
+}
+
+#hero .banner .dis {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 11.7px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 18.64px;
+}
+
+/* card section */
+#card_box {
+  width: 858px;
+  margin: 100px auto;
+}
+
+#card_box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* #card_box .info{
+  
+} */
+.card_cont{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Work Sans;
+}
+.card{
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.img_box{
+  width: 250px;
+
+}
+.card .img_box img{
+  width: 100%;
+}
+#card_box .subtitle {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.shop{
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(82, 195, 3, 0.15)
+}

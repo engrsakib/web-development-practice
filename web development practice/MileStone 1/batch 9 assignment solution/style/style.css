@@ -99,10 +99,12 @@
 .dis_container {
   max-width: 557px;
   height: 523px;
-  border: solid red 2px;
+  /* border: solid red 2px; */
   margin: 0 auto;
-}
-.dis_element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .dis_head {
   color: rgb(255, 0, 0);
@@ -130,4 +132,61 @@
   line-height: 37px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.off_img {
+  max-width: 557px;
+  border: 1px dashed black;
+  margin: 5px;
+  padding-right: 5px;
+}
+
+.off_img > img {
+  width: 100%;
+  margin: 5px 7px 5px 7px;
+}
+
+/* mid night party start */
+.mid_night {
+  max-width: 858px;
+  height: 392px;
+  /* border: red solid 2px; */
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../new-year-offer-resources/images/Vectorrr.png");
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+}
+.mid_content{
+    width: 50%;
+}
+.mid_content_h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 57px;
+  letter-spacing: 11%;
+  text-align: left;
+}
+.mid_content_p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mid_img{
+    width: 250px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border: dashed 1 px white;
+}
+.mid_img_a{
+    width: 100%;
 }

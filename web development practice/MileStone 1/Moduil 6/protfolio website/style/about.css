@@ -1,0 +1,35 @@
+/* 6.5 */
+/* open style */
+.bg_secondary{
+    background-color: #fffbf8;
+}
+main{
+    max-width: 809.4px;
+    margin: 15px auto;
+}
+.about{
+    border-radius: 8px;
+    padding: 92.3px 107px;
+    text-align: center;
+    margin-top: 92.87px;
+}
+.about_title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 24.85px;
+    color: #181818;
+}
+.about_des{
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 12.85px;
+    color: #181818;
+}
+.a_des{
+    font-weight: 600;
+}
+.about_items{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 15px;
+}

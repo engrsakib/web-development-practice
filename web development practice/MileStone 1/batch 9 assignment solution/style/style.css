@@ -62,20 +62,19 @@
   max-height: 392px;
   /* border: solid red 2px; */
   margin: 22.5px auto;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   background-image: url("../new-year-offer-resources/images/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
   background-blend-mode: overlay;
-
 }
-.containt_b{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 392px;
+.containt_b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 392px;
 }
 .banner_p {
   color: rgb(255, 255, 255);
@@ -92,6 +91,43 @@
   font-size: 46px;
   font-weight: 900;
   line-height: 61px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* 65% container */
+.dis_container {
+  max-width: 557px;
+  height: 523px;
+  border: solid red 2px;
+  margin: 0 auto;
+}
+.dis_element {
+}
+.dis_head {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.dis_p {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.dis_h4 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 37px;
   letter-spacing: 0%;
   text-align: center;
 }

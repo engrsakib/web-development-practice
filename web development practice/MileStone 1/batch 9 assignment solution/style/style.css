@@ -341,11 +341,13 @@
 }
 .img_com {
   display: flex;
+  width: 200px;
+  height: 200px;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
   border: 9px solid rgb(255, 0, 0);
-  border-radius: 120%;
+  border-radius: 100px;
 }
 .coming_2 img {
   width: 70%;

@@ -1,0 +1,21 @@
+.calender_container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+.date{
+    padding: 10px 15px;
+    background-color: rgb(143, 218, 255);
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.date1{
+   
+    background-color: rgb(221, 221, 221);
+}
+.date2{
+    background-color: rgb(203, 166, 202);
+}
